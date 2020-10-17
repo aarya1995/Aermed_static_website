@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afc646ec-74f7-493e-a7d3-f4599886535c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/about-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/about-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/about-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cancer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/dermatology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/docs-image-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/docs-image-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/features-home-bg-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/features-home-element-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/features-home-element-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/features-home-element-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/features-top-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero-image-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/home_screen_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-author-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/news-single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet-avatar-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet-avatar-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet-avatar-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet-avatar-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet-avatar-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/planet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/psychiatry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sign_in_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/survey_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-member-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-mosaic-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-mosaic-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-mosaic-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/team-mosaic-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/testimonial-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/testimonial-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/testimonial-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tutorial-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ucsf-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/vanderbilt-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BlogPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Documentation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ResetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Tutorials.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/AboutIntro.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/HeroHome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/FeaturesBlocks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/FeaturesHome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/Clients.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mb-1</find>
+      <find>text</find>
+      <find>text-center</find>
+      <find>img</find>
+      <find>blue</find>
+      <find>&lt;Clien</find>
+      <find>&lt;Image</find>
+      <find>bg-blue-600</find>
+      <find>from-blue-500</find>
+      <find>sign_in</find>
+      <find>sign_in_s</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
+        <option value="$PROJECT_DIR$/src/css/additional-styles/theme.scss" />
+        <option value="$PROJECT_DIR$/src/partials/AermedClients.js" />
+        <option value="$PROJECT_DIR$/src/partials/TestimonialsCarousel.js" />
+        <option value="$PROJECT_DIR$/src/partials/Footer.js" />
+        <option value="$PROJECT_DIR$/src/partials/Cta.js" />
+        <option value="$PROJECT_DIR$/src/partials/FeaturesBlocks.js" />
+        <option value="$PROJECT_DIR$/src/partials/HeroHome.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/partials/FeaturesHome.js" />
+        <option value="$PROJECT_DIR$/src/pages/Home.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2137" />
+    <option name="y" value="-775" />
+    <option name="width" value="1863" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="simple-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc646ec-74f7-493e-a7d3-f4599886535c" name="Default Changelist" comment="" />
+      <created>1602966990540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602966990540</updated>
+      <workItem from="1602966992546" duration="7371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7371000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2137" y="-775" width="1863" height="1417" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16938111" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/Stats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1137">
+          <caret line="154" column="16" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="154" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/additional-styles/toggle-switch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/additional-styles/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/Clients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/vanderbilt-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/ucsf-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/AermedClients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Pricing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/TestimonialsCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/Cta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/BlogList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/AboutIntro.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/HeroHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/FeaturesBlocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/FeaturesHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
