@@ -19,7 +19,7 @@ function Cta() {
 
               {/* CTA button */}
               <div>
-                <a className="btn bg-gradient-to-r from-blue-100 to-white" href="#0" style={{color: "#4b66ea"}}>Get in touch</a>
+                <a className="btn bg-gradient-to-r from-blue-100 to-white" href="mailto:team@getaermed.com" style={{color: "#4b66ea"}}>Get in touch</a>
               </div>
 
             </div>

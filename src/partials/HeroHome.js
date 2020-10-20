@@ -44,7 +44,7 @@ function HeroHome() {
                 <div>
                   <a className="btn text-white aermed-primary hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                      style={{backgroundColor: "#4b66ea"}}
-                     href="#0">Get in touch</a>
+                     href="mailto:team@getaermed.com">Get in touch</a>
                 </div>
               </div>
             </div>

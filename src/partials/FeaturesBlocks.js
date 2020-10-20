@@ -26,7 +26,7 @@ function FeaturesBlocks() {
       false: ['Support referrals', 'Aermed allows providers who don’t have time to review a full EHR to request and read a quick survey instead']
     },
     feature6: {
-      true: ['Build patient trust', 'Foo bar baz lux'],
+      true: ['Build patient trust', 'Aermed helps improve the patient-doctor relationship by explaining treatments and helping you customize your care'],
       false: ['Support research', 'Our secure, encrypted database to allow researchers to more easily access data to unlock new findings from PROs']
     }
   });
