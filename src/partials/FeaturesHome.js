@@ -30,9 +30,9 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center" style={{paddingBottom: "2rem"}}>
-            <h1 className="h2 mb-4">An emerging statistic</h1>
+            <h1 className="h2 mb-4">PROs: An Emerging Source of Insight</h1>
             <p className="text-xl text-gray-600">
-              Even with limited existing data, meaningful clinical results have been found by utilizing patient-reported outcomes (PROs)
+              Even with limited existing data, meaningful clinical results have been found through the use of patient-reported outcome (PRO) surveys
             </p>
           </div>
 
@@ -43,7 +43,7 @@ function FeaturesHome() {
             {/* 1st item */}
             <div className="text-center">
               <img src={require('../images/cancer.png')} width="230" height="180" style={{margin: "auto"}}/>
-              <div className="h3 mb-1" style={{marginTop: "15px"}}>Cancer Care</div>
+              <div className="h3 mb-1" style={{marginTop: "15px"}}>Oncology</div>
               <div className="text-gray-600">Online administration of PRO surveys to lung cancer patients in France helped detect relapse in advance, driving a 26% increase in survival rates
               </div>
             </div>
@@ -67,6 +67,12 @@ function FeaturesHome() {
 
           </div>
 
+          <div className="max-w-3xl mx-auto text-center" style={{paddingBottom: "4rem"}}>
+            <p className="text-xl text-gray-800">
+              Aermed helps bring these benefits to your hospital or practice with a simple workflow
+            </p>
+          </div>
+
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
@@ -75,7 +81,7 @@ function FeaturesHome() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Patient first technology</h3>
-                <p className="text-xl text-gray-600">We've interviewed dozens of patients, and used their feedback to design the most user friendly patient reported outcomes app on the market.</p>
+                <p className="text-xl text-gray-600">We've interviewed dozens of patients, and used their feedback to design the most user friendly patient reported outcomes app on the market</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -86,7 +92,7 @@ function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The features your patients need</div>
-                    <div className="text-gray-600">Through a single interface, patients can keep track of their surveys and medication schedule.</div>
+                    <div className="text-gray-600">Through a single interface, patients can keep track of their surveys and medication schedule</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -100,8 +106,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Gold standard PROs</div>
-                    <div className="text-gray-600">Our adaptive survey technology leverages clinically tested PROs, unique to your field, that takes the guesswork out of your patient questionnaires.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Personalized surveys</div>
+                    <div className="text-gray-600">Our adaptive survey technology leverages clinically tested PROs, unique to your field, that takes the guesswork out of your patient questionnaires</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +122,7 @@ function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Powerful and secure authentication</div>
-                    <div className="text-gray-600">We can leverage your existing EHR to allow patients to securely register with their existing accounts in your EMR.</div>
+                    <div className="text-gray-600">We can leverage your existing EHR to allow patients to securely register with their existing accounts in your EMR</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

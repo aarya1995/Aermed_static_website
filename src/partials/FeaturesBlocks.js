@@ -1,6 +1,36 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function FeaturesBlocks() {
+
+  const [value, setValue] = useState(true);
+
+  const [features] = useState({
+    feature1: {
+      true: ['Easily integrate', 'Aermed can securely hook into your EMR using FHIR HL7 standards with an API or deliver reports accessible via PDF or web app'],
+      false: ['Easily integrate', 'Aermed can securely hook into your EMR software using FHIR HL7 standards and can pass security audits with flying colors']
+    },
+    feature2: {
+      true: ['Customize surveys', 'We offer pre-built surveys to track clinically verified PROs for patients and the ability to customize each survey to suit clinicians’ needs'],
+      false: ['Customize surveys', 'We offer pre-built surveys to track clinically verified PROs for patients and the ability to customize each survey to suit clinicians’ needs']
+    },
+    feature3: {
+      true: ['Coordinate care', 'Aermed tracks patient outcomes and medication adherence over time and can alert patients and providers when there is a need for follow-up care'],
+      false: ['Coordinate care', 'Aermed tracks patient outcomes and medication adherence over time and can alert patients and providers when there is a need for follow-up care']
+    },
+    feature4: {
+      true: ['Save time', 'Cut down on waiting room delays, spend less face time with patients on routine questions, and waste less time entering responses into the EMR'],
+      false: ['Save time', 'Aermed logs all survey responses and writes them into your EMR, so staff can spend time on more important tasks.']
+    },
+    feature5: {
+      true: ['Generate referrals', 'Partner with us for social media campaigns to distribute surveys, help patients understand their conditions, and find them good doctors'],
+      false: ['Support referrals', 'Aermed allows providers who don’t have time to review a full EHR to request and read a quick survey instead']
+    },
+    feature6: {
+      true: ['Build patient trust', 'Foo bar baz lux'],
+      false: ['Support research', 'Our secure, encrypted database to allow researchers to more easily access data to unlock new findings from PROs']
+    }
+  });
+
   return (
     <section className="relative">
 
@@ -13,8 +43,29 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Flexible enough to fit your needs</h2>
-            <p className="text-xl text-gray-600">As an API, Aermed can securely hook into your EMR and other workflows, leveraging FHIR HL7 standards. This enables you to focus on your patients, and not worry about settting up or maintaining new technology.</p>
+            <h2 className="h2 mb-4">A flexible platform to fit your needs</h2>
+            <p className="text-xl text-gray-600">Aermed can securely hook into your EMR software using FHIR HL7 standards with an API or deliver reports accessible via PDF or web app. This helps you focus on your patients and not worry about setting up or maintaining new technology.</p>
+          </div>
+
+          {/* Pricing toggle */}
+          <div className="flex justify-center max-w-xs m-auto mb-16" data-aos="zoom-y-out" data-aos-delay="300">
+            <div className="relative flex w-full mx-6 p-1 bg-gray-200 rounded">
+                <span
+                    className="absolute inset-0 m-1 pointer-events-none"
+                    aria-hidden="true"
+                >
+                  <span className={`absolute inset-0 w-1/2 bg-white rounded shadow transform transition duration-150 ease-in-out ${value ? 'translate-x-0' : 'translate-x-full'}`}></span>
+                </span>
+              <button
+                  className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${!value && 'text-gray-500'}`}
+                  onClick={(e) => { e.preventDefault(); setValue(true); }}
+              >Private Practices
+              </button>
+              <button
+                  className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${value && 'text-gray-500'}`}
+                  onClick={(e) => { e.preventDefault(); setValue(false); }}
+              >Hospitals</button>
+            </div>
           </div>
 
           {/* Items */}
@@ -33,8 +84,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">EHR compliant</h4>
-              <p className="text-gray-600 text-center">We can integrate seamlessly with any EHR built on HL7 standards.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature1[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature1[value][1]}</p>
             </div>
 
             {/* 2nd item */}
@@ -49,8 +100,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Save time</h4>
-              <p className="text-gray-600 text-center">Automate your symptom reviews and note collection.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature2[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature2[value][1]}</p>
             </div>
 
             {/* 3rd item */}
@@ -66,8 +117,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Flexible surveys</h4>
-              <p className="text-gray-600 text-center">Our surveys can be customized to support each clinician's needs.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature3[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature3[value][1]}</p>
             </div>
 
             {/* 4th item */}
@@ -83,8 +134,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Research potential</h4>
-              <p className="text-gray-600 text-center">Unlocks new research potential with structured PRO data.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature4[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature4[value][1]}</p>
             </div>
 
             {/* 5th item */}
@@ -99,8 +150,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Facilitate referrals</h4>
-              <p className="text-gray-600 text-center">Facilitate referrals by allowing providers who lack time to review EHR to use quick surveys instead.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature5[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature5[value][1]}</p>
             </div>
 
             {/* 6th item */}
@@ -114,8 +165,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Increase revenue</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{features.feature6[value][0]}</h4>
+              <p className="text-gray-600 text-center">{features.feature6[value][1]}.</p>
             </div>
 
           </div>
